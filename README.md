@@ -58,8 +58,8 @@ To run this containerized version locally:
 
 ```bash
 # Clone this repository
-git clone https://github.com/ReesMorris/OpenCut.git
-cd OpenCut
+git clone https://github.com/ReesMorris/opencut-classic-docker.git
+cd opencut-classic-docker
 
 # Build the Docker image
 docker build -t opencut -f apps/web/Dockerfile .
