@@ -1,5 +1,5 @@
 # Builds the web app's Docker image and publishes it to GHCR.
-# The Railway template deploys ghcr.io/reesmorris/opencut:latest.
+# The Railway template deploys ghcr.io/reesmorris/opencut-classic-docker:latest.
 name: Docker Publish
 
 concurrency:
@@ -18,7 +18,7 @@ permissions:
   packages: write
 
 env:
-  IMAGE: ghcr.io/reesmorris/opencut
+  IMAGE: ghcr.io/reesmorris/opencut-classic-docker
 
 jobs:
   publish:
